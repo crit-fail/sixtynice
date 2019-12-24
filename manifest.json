@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "SixtyNice",
   "version": "1.0",
-  "homepage_url": "https://github.com/xdesro/sixtynice",
+  "homepage_url": "https://github.com/crit-fail/sixtynice",
   "icons": {
     "48": "icons/sixtynice-48.png"
   },
