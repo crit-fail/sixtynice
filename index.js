@@ -1,8 +1,11 @@
 const elements = document.getElementsByTagName('*');
 [...elements].forEach(element => {
     element.childNodes.forEach(node => {
-        if (node.nodeType === 3 && node.nodeValue.includes('69')) {
-            element.innerHTML = node.nodeValue = node.nodeValue.replace('69', '69 <= Now <strong>That\'s</strong> Nice 😎');
+        if (node.nodeType === 3 && node.nodeValue.includes("69")) {
+            node.nodeValue = node.nodeValue.replace(
+                /69/g,
+                "69 ⇦ Now That's Nice 😎"
+            );
         }
     })
 });
